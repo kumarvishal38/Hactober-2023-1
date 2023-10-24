@@ -1,0 +1,27 @@
+a = 0b1010
+b = 0b1100
+
+# Bitwise AND
+result_and = a & b  # 0b1000 (decimal 8)
+
+# Bitwise OR
+result_or = a | b   # 0b1110 (decimal 14)
+
+# Bitwise XOR
+result_xor = a ^ b  # 0b0110 (decimal 6)
+
+# Bitwise NOT
+result_not_a = ~a  # -11 (in two's complement)
+
+# Left shift
+result_left_shift = a << 2  # 0b101000 (decimal 40)
+
+# Right shift
+result_right_shift = a >> 2  # 0b10 (decimal 2)
+
+print(bin(result_and))
+print(bin(result_or))
+print(bin(result_xor))
+print(result_not_a)
+print(bin(result_left_shift))
+print(bin(result_right_shift))
